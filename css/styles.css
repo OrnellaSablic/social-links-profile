@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+body {
+    font-family: 'Inter';
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background: hsl(0, 0%, 8%);
+}
+
+
+.card-container {
+    width: 300px; /*cuando usar min-width y max-width?*/
+    background: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-container img {
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+.profile-container h1 {
+    font-weight: 700;
+    margin: 1.5rem 0 .5rem;
+    
+}
+
+
+.profile-container h4 {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.profile-container p {
+    margin-bottom: 1.3rem;
+    font-size: 14px;
+}
+
+.social-networks-container ul li {
+    list-style: none;
+    text-align: center;
+    font-weight: 600;
+    background: hsl(0, 0%, 20%);
+    margin-bottom: 1rem;
+    padding: .8rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.social-networks-container li:hover {
+    color: hsl(0, 0%, 20%);
+    background: hsl(75, 94%, 57%);
+    transition: .2s;
+} 
+
+.social-networks-container a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 72%, 76%);
+}
