@@ -44,10 +44,11 @@ body {
 }
 
 
-.profile-container h4 {
+.profile-container h2 {
     color: hsl(75, 94%, 57%);
     font-weight: 600;
     margin-bottom: 1.5rem;
+    font-size: 16px;
 }
 
 .profile-container p {
